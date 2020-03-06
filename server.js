@@ -16,8 +16,8 @@ app.get("/music", (req, res) => {
       thumbnails: info.thumbnails
     });
   });
-});
+});a
 
-app.listen(process.PORT || 3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("OK!!!");
 });
